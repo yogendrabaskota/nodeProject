@@ -33,7 +33,7 @@ app.post('/register',(req,res) => {
 
 app.use(express.static('public/css'))
 
-const PORT = 3456
+const PORT = 3456 
 app.listen(PORT, ()=> {
     console.log("Server running successfully at port " + PORT);
 }) 
