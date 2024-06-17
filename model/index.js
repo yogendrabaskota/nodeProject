@@ -38,7 +38,7 @@ db.blogs = require("./blogModel.js")(sequelize, DataTypes);
 
 
 db.sequelize.sync({ force: false}).then(() => {
-  console.log("yes re-sync done");
+  console.log("yes re-sync done"); 
 });
 
 module.exports = db;
