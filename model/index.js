@@ -31,7 +31,7 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
 // importing model files 
-
+ 
 db.users = require("./userModel.js")(sequelize, DataTypes);
 db.blogs = require("./blogModel.js")(sequelize, DataTypes);
 
